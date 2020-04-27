@@ -4,5 +4,5 @@ SET(CMAKE_C_STANDARD 11)
 
 MESSAGE(STATUS "Building tinycthread library...")
 
-ADD_LIBRARY(log STATIC
+ADD_LIBRARY(tinycthread STATIC
 	src/tinycthread.c)
